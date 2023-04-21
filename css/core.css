@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 14px 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #E8E9EA;
+    line-height: 39px;
+}
+.wrapper {
+    background: url("../img/bgc.png");
+}
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+@media (max-width: 1230px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
